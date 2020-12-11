@@ -2,5 +2,8 @@ import name from './name';
 
 export default function() {
 	let {el} = this;
-	el.removeObject3D(name);
+	let object = el.getObject3D(name);
+	if (object) {
+		el.removeObject3D(name);
+	}
 }
