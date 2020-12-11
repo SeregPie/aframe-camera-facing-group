@@ -13,8 +13,8 @@ npm i aframe-camera-facing-group
 ---
 
 ```javascript
-import 'aframe-camera-facing-group';
 import AFRAME from 'aframe';
+import 'aframe-camera-facing-group';
 ```
 
 ### browser
